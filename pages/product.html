@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <title>Product Page</title>
+</head>
+
+<body>
+    <div class="pg-header">
+        <div class="pg-header__left">
+            <div class="flex align-items-center gap-1">
+                <div class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-menu">
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </div>
+                <div class="pg-header__logo">
+                    <a href="/index.html">
+                        <img src="../assets/company-logo.png" alt="" width="150">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="back-icon">
+            <a href="./login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-log-in"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" x2="3" y1="12" y2="12"/></svg>
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-input">
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-search">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="pg-product">
+        <div class="pg-product-wrapper">
+            <div class="product-images-box">
+                <div class="product-img-sec">
+                    <img src="../assets/product-img2.jpg" alt="">
+                </div>
+                <hr class="hr-preset1 mb-3">
+                <div class="product-quantity__box">
+                    <div class="preview-img">
+                        <img src="../assets/product-img2.jpg" alt="">
+                    </div>
+                    <div class="preview-img">
+                        <img src="../assets/product-img3.jpg" alt="">
+                    </div>
+                    <div class="preview-img">
+                        <img src="../assets/product-img2.jpg" alt="">
+                    </div>
+                    <div class="preview-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="product-main">
+                <div class="product-item__name text-xs font-medium">Brand: Nike</div>
+                <div class="product-item__name text-lg font-medium">Men's Flex Control TR3 Sneaker</div>
+                <div class="product-price text-md font-medium">$49.00</div>
+                <img src="../assets/rating_img.png" alt="" width="80" class="rating-img">
+                <a href="./cart.html"><button class="product-cart-btn text-sm">Add to Cart</button></a>
+            </div>
+        </div>
+        <div class="product-description">
+            <h1 class="text-lg font-bold">Description</h1>
+            <p class="text-sm">
+                Experience unparalleled comfort and style with the Nike Air Zoom Revolution sneakers, crafted for the
+                ultimate fusion of performance and design. These shoes are perfect for athletes and casual wearers
+                alike, offering versatility for daily wear, workouts, or casual outings.
+            </p>
+            <p class="text-sm font-medium">Key Features:</p>
+            <p class="text-sm">
+                Revolutionary Comfort: Featuring Nike's signature Air Zoom cushioning technology, these sneakers provide
+                responsive support and a lightweight feel for all-day comfort.
+            </p>
+            <p class="text-sm">
+                Breathable Design: The engineered mesh upper ensures maximum ventilation, keeping your feet cool and dry
+                even during intense activities.
+            </p>
+            <p class="text-sm">
+                Durable Build: Designed with a robust rubber outsole for superior traction and durability, these shoes
+                are made to withstand various terrains.
+                Sleek Style: Available in dynamic colorways and featuring the iconic Nike Swoosh, these sneakers combine
+                sporty vibes with urban chic.
+            </p>
+            <p class="text-sm">
+                Perfect Fit: A padded collar and adjustable lace-up system ensure a snug and personalized fit for every
+                wearer.
+            </p>
+            <p class="font-medium text-sm">
+                Materials:
+            </p>
+            <p class="text-sm">
+                Upper: Premium synthetic mesh for flexibility and airflow.
+                Midsole: Cushioned foam with Air Zoom units for shock absorption.
+            </p>
+            <p class="text-sm">
+                Outsole: Durable rubber with a multi-patterned tread for enhanced grip.
+            </p>
+            <p class="text-sm">
+                Ideal For:
+                Running, training, walking, or casual daily wear.
+            </p>
+            <p class="text-sm">
+                Step into the future of footwear with Nike Air Zoom Revolution the perfect blend of innovation,
+                comfort, and timeless style.
+            </p>
+        </div>
+        <div class="product-review-sec">
+            <h1 class="text-lg font-bold mt-5 mb-4">Top reviews</h1>
+            <div class="review-card-box flex flex-column gap">
+                <div class="review-card__person-profile flex align-items-center gap">
+                    <div class="person-profile-pic">
+                        <img src="../assets/user.png" alt="" width="20">
+                    </div>
+                    <div class="person-name text-sm font-medium">Dev</div>
+                </div>
+                <div class="review-stars">
+                    <img src="../assets/rating_img.png" alt="" width="70">
+                </div>
+                <div class="review-discription text-sm">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quos ab sapiente reiciendis laboriosam repellat?
+                </div>
+                <div class="review-image-sec flex gap">
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-card-box flex flex-column gap">
+                <div class="review-card__person-profile flex align-items-center gap">
+                    <div class="person-profile-pic">
+                        <img src="../assets/user.png" alt="" width="20">
+                    </div>
+                    <div class="person-name text-sm font-medium">Dev</div>
+                </div>
+                <div class="review-stars">
+                    <img src="../assets/rating_img.png" alt="" width="70">
+                </div>
+                <div class="review-discription text-sm">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quos ab sapiente reiciendis laboriosam repellat?
+                </div>
+                <div class="review-image-sec flex gap">
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                    <div class="review-img">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="related-product-sec mt-10">
+            <h1 class="text-lg font-bold mt-5 mb-4">Related products</h1>
+           <div class="product-box">
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <a href="./category-products.html">
+                        <img src="../assets/product-img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="product-card-discription">
+                    <div class="text-sm font-bold">Nike</div>
+                    <div class="text-xs font-normal">P-6000 Lace-Up Sneakers</div>
+                    <div class="text-sm font-bold">$49.99</div>
+                </div>
+            </div>
+           </div>
+         
+        </div>
+    </div>
+</body>
+
+</html>

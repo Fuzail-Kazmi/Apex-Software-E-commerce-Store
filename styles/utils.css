@@ -359,6 +359,16 @@
     color: #a2333b;
 }
 
+.hr-preset1 {
+    border: none;
+    height: 0.1px;
+    background-color: #c9c9c9;
+}
+
 .link {
     cursor: pointer;
+}
+
+.unset {
+    all: unset;
 }
