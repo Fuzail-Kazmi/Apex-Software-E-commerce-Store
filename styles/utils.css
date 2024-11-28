@@ -167,7 +167,9 @@
 .mx-auto {
     margin-inline: auto;
 }
-
+.mi-1{
+margin-inline: .25rem ;
+}
 .my-1 {
     margin-block: 0.25rem;
 }
@@ -371,4 +373,7 @@
 
 .unset {
     all: unset;
+}
+.rating-num{
+    color: rgb(46, 139, 131);
 }
