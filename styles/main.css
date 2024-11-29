@@ -926,7 +926,7 @@ button:disabled {
     cursor: pointer;
     color: white;
 }
-.btn {
+.mobile-btn {
     outline: none;
     border: none;
     background-color: #484848;
@@ -1196,7 +1196,7 @@ button:disabled {
         display: block;
         flex-basis: 20%;
     }
-    .btn {
+    .mobile-btn {
      display: none;
     }
 }
