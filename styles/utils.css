@@ -366,9 +366,12 @@ margin-inline: .25rem ;
     height: 0.1px;
     background-color: #c9c9c9;
 }
-
-.link {
-    cursor: pointer;
+.hr-preset2 {
+    border: none;
+    height: 0.1px;
+    background-color: #c9c9c9;
+    display: flex;
+    flex-direction: row;
 }
 
 .unset {
