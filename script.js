@@ -33,7 +33,34 @@ function carousel() {
     });
 
 }
-setTimeout(() => {
-    slides()
-}, 8000)
 prevBtn.style.display = "none";
+
+
+// let n = 0;
+
+// function changeSlide() {
+//     for (let i = 0; i < slides.length; i++) {
+//         slides[i].style.display = 'none';
+//     }
+//     slides[n].style.display = 'block';
+// }
+// changeSlide();
+
+// prevBtn.addEventListener('click', (e) => {
+//     if (n > 0) {
+//         n--;
+//     }else {
+//         n = slides.length - 1;
+//     }
+//     changeSlide();
+// })
+
+// nextBtn.addEventListener('click', (e) => {
+//     if (n < slides.length - 1) {
+//         n++;
+//     }else {
+//         n = 0;
+//     }
+//     changeSlide();
+// })
+
