@@ -926,6 +926,7 @@ button:disabled {
     cursor: pointer;
     color: white;
 }
+
 .mobile-btn {
     outline: none;
     border: none;
@@ -937,6 +938,7 @@ button:disabled {
     cursor: pointer;
     color: white;
 }
+
 .product-d-purchase .product-buy {
     background-color: transparent;
     color: #484848;
@@ -1189,15 +1191,18 @@ button:disabled {
         height: max-content;
         flex-basis: 30%;
     }
-    .product-d-details{
+
+    .product-d-details {
         flex-basis: 50%;
     }
+
     .product-d-purchase {
         display: block;
         flex-basis: 20%;
     }
+
     .mobile-btn {
-     display: none;
+        display: none;
     }
 }
 
