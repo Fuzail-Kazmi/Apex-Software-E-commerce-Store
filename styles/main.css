@@ -523,6 +523,7 @@ input[type=number] {
 }
 
 .cart-item__right {
+    flex-shrink: 0;
     color: #cd0000;
 }
 
